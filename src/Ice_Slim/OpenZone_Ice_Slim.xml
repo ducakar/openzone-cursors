@@ -176,7 +176,7 @@
   <alias name="3085a0e285430894940527032f8b26df" target="link"/>
   <alias name="1001208387f90000800003000700f6ff" target="forbidden"/>
 
-  <!-- mozilla -->
+  <!-- Mozilla -->
   <alias name="08ffe1e65f80fcfdf9fff11263e74c48" target="left_ptr"/>
   <alias name="5c6cd98b3f3ebcb1f9c7f1c204630408" target="whats_this"/>
   <alias name="08ffe1cb5fe6fc01f906f1c063814ccf" target="copy"/>
@@ -184,6 +184,12 @@
   <alias name="08e8e1c95fe2fc01f976f1e063a24ccd" target="left_ptr_watch"/>
   <alias name="5aca4d189052212118709018842178c0" target="openhand"/>
   <alias name="208530c400c041818281048008011002" target="closedhand"/>
+  <alias name="f41c0e382c94c0958e07017e42b00462" target="zoom-in"/>
+  <alias name="f41c0e382c97c0938e07017e42800402" target="zoom-out"/>
+
+  <!-- Chromium -->
+  <alias name="grab" target="openhand"/>
+  <alias name="grabbing" target="closedhand"/>
 
   <!-- from Adwaita theme -->
   <alias name="crossed_circle" target="forbidden"/>
@@ -210,11 +216,4 @@
   <alias name="a2a266d0498c3104214a47bd64ab0fc8" target="link"/>
   <alias name="00000000000000020006000e7e9ffc3f" target="left_ptr_watch"/>
   <alias name="fcf21c00b30f7e3f83fe0dfd12e71cff" target="closedhand"/>
-
-  <!-- from my own research -->
-  <alias name="grab" target="openhand"/>
-  <alias name="grabbing" target="closedhand"/>
-
-  <alias name="f41c0e382c94c0958e07017e42b00462" target="zoom-in"/>
-  <alias name="f41c0e382c97c0938e07017e42800402" target="zoom-out"/>
 </theme>
