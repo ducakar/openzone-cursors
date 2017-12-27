@@ -9,6 +9,7 @@ done
 
 cd ../cursors
 
+ln -s     left_ptr                00000000000000000000000000000000
 ln -s     left_ptr                arrow
 ln -s     left_ptr                dnd-none
 ln -s     left_ptr                top_left_arrow
@@ -44,15 +45,20 @@ ln -s     move                    9081237383d90e509aa00f00170e968f
 ln -s     move                    dnd-move
 ln -s     right_ptr               draft_large
 ln -s     right_ptr               draft_small
-ln -s     hand1                   openhand
+ln -s     xterm                   ibeam
+ln -s     xterm                   text
 ln -s     hand2                   9d800788f1b08800ae810202380a0822
 ln -s     hand2                   e29285e634086352946a0e7090d73106
 ln -s     hand2                   hand
+ln -s     hand2                   hand1
 ln -s     hand2                   pointer
 ln -s     hand2                   pointing_hand
-ln -s     fleur                   closedhand
-ln -s     fleur                   fcf21c00b30f7e3f83fe0dfd12e71cff
-ln -s     fleur                   grabbing
+ln -s     closedhand              fcf21c00b30f7e3f83fe0dfd12e71cff
+ln -s     closedhand              grabbing
+ln -s     fleur                   5aca4d189052212118709018842178c0
+ln -s     fleur                   all-scroll
+ln -s     fleur                   size_all
+ln -s     fleur                   sizing
 ln -s     h_double_arrow          028006030e0e7ebffc7f7070c0600140
 ln -s     h_double_arrow          14fef782d02440884392942c11205230
 ln -s     h_double_arrow          e-resize
@@ -88,9 +94,6 @@ ln -s     fd_double_arrow         size_bdiag
 ln -s     up_arrow                center_ptr
 ln -s     up_arrow                centre_ptr
 ln -s     up_arrow                sb_up_arrow
-ln -s     all-scroll              size_all
-ln -s     xterm                   ibeam
-ln -s     xterm                   text
 ln -s     crosshair               cross
 ln -s     crosshair               cross_reverse
 ln -s     crosshair               diamond_cross
@@ -98,3 +101,4 @@ ln -s     dotbox                  dot_box_mask
 ln -s     dotbox                  draped_box
 ln -s     dotbox                  icon
 ln -s     dotbox                  target
+ln -s     color-picker            90b3018312820b127e5a0b7c8034a301

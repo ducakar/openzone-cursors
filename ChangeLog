@@ -1,0 +1,6 @@
+1.0.1
+- move is now yellow
+- yellow color (in left_ptr_watch, move) adjusted a bit to look more like orange
+
+1.0.0
+- initial version
