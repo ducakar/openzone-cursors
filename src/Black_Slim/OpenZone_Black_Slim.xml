@@ -149,8 +149,8 @@
   <alias name="no-drop" target="forbidden"/>
   <alias name="not-allowed" target="forbidden"/>
   <alias name="all-scroll" target="size_all"/>
-  <alias name="row-resize" target="size_ver"/>
-  <alias name="col-resize" target="size_hor"/>
+  <alias name="row-resize" target="size_hor"/>
+  <alias name="col-resize" target="size_ver"/>
   <alias name="e-resize" target="size_hor"/>
   <alias name="ne-resize" target="size_bdiag"/>
   <alias name="nw-resize" target="size_fdiag"/>

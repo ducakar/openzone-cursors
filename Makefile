@@ -1,6 +1,6 @@
 name=OpenZone
 themes=Black Black_Slim White White_Slim Ice Ice_Slim
-version=1.2.1
+version=1.2.2
 
 all: $(themes)
 
