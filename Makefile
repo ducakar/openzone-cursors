@@ -1,5 +1,5 @@
 name    = OpenZone
-version = 1.2.4
+version = 1.2.5
 themes  = Black Black_Slim \
 	  White White_Slim \
 	  Ice Ice_Slim \
