@@ -1,19 +1,18 @@
 name=OpenZone
-themes=Black White Ice
-version=1.1.3
+themes=Black Black_Slim White White_Slim Ice Ice_Slim
+version=1.2.0
 
 all: $(themes)
 
 clean:
-	rm -rf $(name)_*.tar.bz2
+	rm -rf $(name)_*.tar.xz
 
 pack:
-	cd .. && tar jcf $(name)-$(version).tar.bz2 $(name)
+	cd .. && tar Jcf $(name)-$(version).tar.xz $(name)
 
 $(themes):
-	cd src/$@ && ../make.sh '../../OpenZone_$@/cursors'
-	echo "[Icon Theme]" >> $(name)_$@/index.theme
-	echo "Name=$(name) $@" >> $(name)_$@/index.theme
-	echo "Example=watch" >> $(name)_$@/index.theme
-	tar jcf $(name)_$@-$(version).tar.bz2 $(name)_$@
+	mkdir -p $(name)_$@
+	icon-slicer --image-dir=src/$@ --output-dir=$(name)_$@ src/$@/$(name)_$@.xml
+	cp src/$@/index.theme $(name)_$@
+	tar Jcf $(name)_$@-$(version).tar.xz $(name)_$@
 	rm -rf $(name)_$@

@@ -1,3 +1,13 @@
+1.2.0
+- slim variants of all themes added
+- cursors are built with icon-slicer, all sources are reorganised into appropriate format
+- changes from 1.1.4 reverted for normal variants
+- cursor names/aliases revised
+- {up, down, right, left}_arrow have longer tails
+
+1.1.4
+- xterm, vertical-text, zoom-in and zoom-out cursors are a little smaller
+
 1.1.3
 - shadow on zoom-out in white theme fixed
 
@@ -30,7 +40,7 @@
 1.0.1
 - white theme added
 - move cursor emblem is now yellow
-- yellow color (in left_ptr_watch, move) adjusted a bit to look more like orange
+- yellow colour (in left_ptr_watch, move) adjusted a bit to look more like orange
 
 1.0.0
 - initial version (black theme only)
