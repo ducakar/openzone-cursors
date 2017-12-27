@@ -26,8 +26,7 @@ ln -s     left_ptr_watch          3ecb610c1bf2410f44200f48c40d3599
 ln -s     left_ptr_watch          9116a3ea924ed2162ecab71ba103b17f
 ln -s     left_ptr_watch          half-busy
 ln -s     left_ptr_watch          progress
-ln -s     left_ptr_watch          watch
-ln -s     left_ptr_watch          wait
+ln -s     watch                   wait
 ln -s     left_ptr_help           5c6cd98b3f3ebcb1f9c7f1c204630408
 ln -s     left_ptr_help           d9ce0ab605698f320427677b458ad60b
 ln -s     left_ptr_help           dnd-ask

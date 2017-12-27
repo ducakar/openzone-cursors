@@ -1,3 +1,7 @@
+1.1.2
+- half-busy cursors added, same as busy but only two dots
+- zoom-in and zoom-out improved -- transparent lens
+
 1.1.1
 - cross in circle cursor replaced by a circle
 - no more silly blinking eyes on pirate cursor
