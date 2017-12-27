@@ -1,3 +1,6 @@
+1.2.4
+- fixed a few aliases
+
 1.2.3
 - Fire themes
 - ownership of all files in the archives set to root:root
@@ -28,7 +31,7 @@
 - zoom-in and zoom-out improved -- transparent lens
 
 1.1.1
-- cross in circle cursor replaced by a circle
+- cross in circle cursors replaced by a circle
 - no more silly blinking eyes on pirate cursor
 
 1.1.0

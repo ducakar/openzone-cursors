@@ -1,6 +1,9 @@
-name=OpenZone
-themes=Black Black_Slim White White_Slim Ice Ice_Slim Fire Fire_Slim
-version=1.2.3
+name    = OpenZone
+version = 1.2.4
+themes  = Black Black_Slim \
+	  White White_Slim \
+	  Ice Ice_Slim \
+	  Fire Fire_Slim
 
 all: $(themes)
 
