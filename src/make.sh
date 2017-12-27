@@ -69,6 +69,7 @@ ln -s     hand2                   pointer
 ln -s     hand2                   pointing_hand
 ln -s     closedhand              fcf21c00b30f7e3f83fe0dfd12e71cff
 ln -s     closedhand              grabbing
+ln -s     fleur                   000fe400006c050018b903ff6a7ffef4
 ln -s     fleur                   208530c400c041818281048008011002
 ln -s     fleur                   5aca4d189052212118709018842178c0
 ln -s     fleur                   all-scroll

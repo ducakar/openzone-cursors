@@ -1,3 +1,7 @@
+1.1.1
+- cross in circle cursor replaced by a circle
+- no more silly blinking eyes on pirate cursor
+
 1.1.0
 - all themes merged under one source tree, build scripts changed
 - softer shadows for white themes

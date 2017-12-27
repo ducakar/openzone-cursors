@@ -1,6 +1,6 @@
 name=OpenZone
 themes=Black White Ice
-version=1.1.0
+version=1.1.1
 
 all: $(themes)
 
@@ -15,5 +15,5 @@ $(themes):
 	echo "[Icon Theme]" >> $(name)_$@/index.theme
 	echo "Name=$(name) $@" >> $(name)_$@/index.theme
 	echo "Example=left_ptr" >> $(name)_$@/index.theme
-	tar jcf $(name)_$@-1.1.0.tar.bz2 $(name)_$@
+	tar jcf $(name)_$@-$(version).tar.bz2 $(name)_$@
 	rm -rf $(name)_$@
