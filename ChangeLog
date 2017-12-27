@@ -1,3 +1,8 @@
+1.2.6
+- added context-menu
+- updated aliases to cover the latest Breeze and Adwaita themes
+- updated aliases to cover all HTML5 cursors in Firefox and Chromium
+
 1.2.5
 - fixed col-resize and row-resize aliases
 

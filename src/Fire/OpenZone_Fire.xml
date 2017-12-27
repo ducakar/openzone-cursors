@@ -83,6 +83,7 @@
     </row>
     <row>
       <cursor name="pirate"/>
+      <cursor name="context-menu"/>
     </row>
   </layout>
 
@@ -184,6 +185,7 @@
   <alias name="08e8e1c95fe2fc01f976f1e063a24ccd" target="left_ptr_watch"/>
   <alias name="5aca4d189052212118709018842178c0" target="openhand"/>
   <alias name="208530c400c041818281048008011002" target="closedhand"/>
+  <alias name="048008013003cff3c00c801001200000" target="vertical-text"/>
   <alias name="f41c0e382c94c0958e07017e42b00462" target="zoom-in"/>
   <alias name="f41c0e382c97c0938e07017e42800402" target="zoom-out"/>
 
@@ -191,9 +193,29 @@
   <alias name="grab" target="openhand"/>
   <alias name="grabbing" target="closedhand"/>
 
+  <!-- from Breeze theme -->
+  <alias name="down-arrow" target="down_arrow"/>
+  <alias name="draft" target="pencil"/>
+  <alias name="half-busy" target="left_ptr_watch"/>
+  <alias name="left-arrow" target="left_arrow"/>
+  <alias name="right-arrow" target="right_arrow"/>
+  <alias name="size-bdiag" target="size_bdiag"/>
+  <alias name="size-fdiag" target="size_fdiag"/>
+  <alias name="size-hor" target="size_hor"/>
+  <alias name="size-ver" target="size_ver"/>
+  <alias name="up-arrow" target="up_arrow"/>
+  <alias name="wayland-cursor" target="X_cursor"/>
+  <alias name="x-cursor" target="X_cursor"/>
+
+  <alias name="b66166c04f8c3109214a4fbd64a50fc8" target="copy"/>
+  <alias name="a2a266d0498c3104214a47bd64ab0fc8" target="link"/>
+  <alias name="00000000000000020006000e7e9ffc3f" target="left_ptr_watch"/>
+  <alias name="fcf21c00b30f7e3f83fe0dfd12e71cff" target="closedhand"/>
+
   <!-- from Adwaita theme -->
   <alias name="dot_box_mask" target="dotbox"/>
   <alias name="crossed_circle" target="forbidden"/>
+  <alias name="pointer-move" target="move"/>
   <alias name="hand" target="pointing_hand"/>
   <alias name="left_ptr_help" target="whats_this"/>
   <alias name="h_double_arrow" target="size_hor"/>
@@ -215,12 +237,4 @@
   <alias name="2870a09082c103050810ffdffffe0204" target="size_ver"/>
   <alias name="fcf1c3c7cd4491d801f1e1c78f100000" target="size_bdiag"/>
   <alias name="c7088f0f3e6c8088236ef8e1e3e70000" target="size_fdiag"/>
-
-  <!-- from Oxygen theme -->
-  <alias name="half-busy" target="left_ptr_watch"/>
-
-  <alias name="b66166c04f8c3109214a4fbd64a50fc8" target="copy"/>
-  <alias name="a2a266d0498c3104214a47bd64ab0fc8" target="link"/>
-  <alias name="00000000000000020006000e7e9ffc3f" target="left_ptr_watch"/>
-  <alias name="fcf21c00b30f7e3f83fe0dfd12e71cff" target="closedhand"/>
 </theme>

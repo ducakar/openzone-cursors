@@ -1,5 +1,5 @@
 name    = OpenZone
-version = 1.2.5
+version = 1.2.6
 themes  = Black Black_Slim \
 	  White White_Slim \
 	  Ice Ice_Slim \
@@ -11,7 +11,7 @@ clean:
 	rm -rf $(name)_*.tar.xz
 
 pack:
-	cd .. && tar Jcf $(name)-$(version).tar.xz --owner=0 --group=0 $(name)
+	cd .. && tar Jcf $(name)-$(version).tar.xz --owner=0 --group=0 --exclude=.git openzone-cursors
 
 $(themes):
 	mkdir -p $(name)_$@
