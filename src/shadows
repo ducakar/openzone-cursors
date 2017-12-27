@@ -1,0 +1,6 @@
+Drop Shadow effect in gimp, settings:
+Offset X: 1
+Offset Y: 1
+Blur radius: 3
+Opacity: 60% for black theme, 40% for white and ice themes
+Allow resizing: No (some shadows are partially cut, but nobody will notice this anyway)

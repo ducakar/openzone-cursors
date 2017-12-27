@@ -1,9 +1,25 @@
+1.1.0
+- all themes merged under one source tree, build scripts changed
+- softer shadows for white themes
+- sb_down_arrow, sb_right_arrow and sb_left_arrow added (up_arrow renamed to sb_up_arrow)
+- smaller plus cursor
+- slightly smaller X_cursor
+- hand2 hotspot adjusted
+- added new symlinks
+
+1.0.3
+- ice theme added
+- zoom-in, zoom-out and vertical-text cursors added
+- circle and hands slightly changed
+- some symlinks added/removed
+
 1.0.2
 - 0000000000000000 alias removed (cursor didn't disappear during screensaver, movies)
 
 1.0.1
-- move is now yellow
+- white theme added
+- move cursor emblem is now yellow
 - yellow color (in left_ptr_watch, move) adjusted a bit to look more like orange
 
 1.0.0
-- initial version
+- initial version (black theme only)
