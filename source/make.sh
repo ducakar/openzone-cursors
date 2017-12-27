@@ -9,7 +9,6 @@ done
 
 cd ../cursors
 
-ln -s     left_ptr                00000000000000000000000000000000
 ln -s     left_ptr                arrow
 ln -s     left_ptr                dnd-none
 ln -s     left_ptr                top_left_arrow
