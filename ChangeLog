@@ -1,3 +1,7 @@
+1.2.1
+- black themes have weaker shadows (the same as white themes)
+- more consistent aliases
+
 1.2.0
 - slim variants of all themes added
 - cursors are built with icon-slicer, all sources are reorganised into appropriate format
