@@ -1,21 +1,27 @@
+pkgname = openzone-cursors
 name    = OpenZone
-version = 1.2.6
-themes  = Black Black_Slim \
-	  White White_Slim \
-	  Ice Ice_Slim \
-	  Fire Fire_Slim
+version = 1.2.7
+themes  = $(name)_Black $(name)_Black_Slim \
+	  $(name)_White $(name)_White_Slim \
+	  $(name)_Ice $(name)_Ice_Slim \
+	  $(name)_Fire $(name)_Fire_Slim
+
+DESTDIR ?= /usr/local
 
 all: $(themes)
 
 clean:
-	rm -rf $(name)_*.tar.xz
+	rm -rf $(themes)
+	rm -f *.tar.xz
 
-pack:
-	cd .. && tar Jcf $(name)-$(version).tar.xz --owner=0 --group=0 --exclude=.git openzone-cursors
+install: $(themes)
+	install -dm755 $(DESTDIR)/share/icons
+	mv $(themes) $(DESTDIR)/share/icons
+
+pack: $(themes)
+	for theme in $(themes); do tar Jcf $$theme.tar.xz $$theme; rm -rf $$theme; done
+	cd .. && tar Jcf $(pkgname)-$(version).tar.xz --owner=0 --group=0 --exclude=.git $(pkgname)
 
 $(themes):
-	mkdir -p $(name)_$@
-	icon-slicer --image-dir=src/$@ --output-dir=$(name)_$@ src/$@/$(name)_$@.xml
-	cp src/$@/index.theme $(name)_$@
-	tar Jcf $(name)_$@-$(version).tar.xz --owner=0 --group=0 $(name)_$@
-	rm -rf $(name)_$@
+	install -Dm644 src/$@/index.theme $@/index.theme
+	icon-slicer --image-dir=src/$@ --output-dir=$@ src/$@/$@.xml

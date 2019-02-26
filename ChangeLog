@@ -1,3 +1,7 @@
+1.2.7
+- removed {up,down,left,right}_arrow aliases to fix issues in Plasma on Wayland
+- added (make) install script
+
 1.2.6
 - added context-menu
 - updated aliases to cover the latest Breeze and Adwaita themes

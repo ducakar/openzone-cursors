@@ -1,4 +1,4 @@
-<theme name="OpenZone_Fire">
+<theme name="OpenZone_Black_Slim">
   <source size="32" gridsize="32" margin="2" spacing="4">
     <image file="hotspots.png" use="hotspot"/>
     <image file="0.png" use="0"/>
@@ -15,6 +15,20 @@
     <image file="11.png" use="11"/>
     <image file="12.png" use="12"/>
     <image file="13.png" use="13"/>
+    <image file="14.png" use="14"/>
+    <image file="15.png" use="15"/>
+    <image file="16.png" use="16"/>
+    <image file="17.png" use="17"/>
+    <image file="18.png" use="18"/>
+    <image file="19.png" use="19"/>
+    <image file="20.png" use="20"/>
+    <image file="21.png" use="21"/>
+    <image file="22.png" use="22"/>
+    <image file="23.png" use="23"/>
+    <image file="24.png" use="24"/>
+    <image file="25.png" use="25"/>
+    <image file="26.png" use="26"/>
+    <image file="27.png" use="27"/>
   </source>
 
   <layout>
@@ -40,8 +54,43 @@
         <frame delay="50"/>
         <frame delay="50"/>
         <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
       </cursor>
       <cursor name="wait">
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
         <frame delay="50"/>
         <frame delay="50"/>
         <frame delay="50"/>
@@ -66,10 +115,10 @@
       <cursor name="size_ver"/>
       <cursor name="size_fdiag"/>
       <cursor name="size_bdiag"/>
-      <cursor name="up_arrow"/>
-      <cursor name="down_arrow"/>
-      <cursor name="right_arrow"/>
-      <cursor name="left_arrow"/>
+      <cursor name="up-arrow"/>
+      <cursor name="down-arrow"/>
+      <cursor name="right-arrow"/>
+      <cursor name="left-arrow"/>
     </row>
     <row>
       <cursor name="pencil"/>
@@ -125,7 +174,7 @@
   <alias name="bottom_right_corner" target="size_fdiag"/>
   <alias name="bottom_side" target="size_ver"/>
   <alias name="bottom_tee" target="size_ver"/>
-  <alias name="center_ptr" target="up_arrow"/>
+  <alias name="center_ptr" target="up-arrow"/>
   <alias name="circle" target="forbidden"/>
   <alias name="cross_reverse" target="crosshair"/>
   <alias name="diamond_cross" target="crosshair"/>
@@ -145,11 +194,11 @@
   <alias name="question_arrow" target="whats_this"/>
   <alias name="right_side" target="size_hor"/>
   <alias name="right_tee" target="size_hor"/>
-  <alias name="sb_down_arrow" target="down_arrow"/>
+  <alias name="sb_down_arrow" target="down-arrow"/>
   <alias name="sb_h_double_arrow" target="size_hor"/>
-  <alias name="sb_left_arrow" target="left_arrow"/>
-  <alias name="sb_right_arrow" target="right_arrow"/>
-  <alias name="sb_up_arrow" target="up_arrow"/>
+  <alias name="sb_left_arrow" target="left-arrow"/>
+  <alias name="sb_right_arrow" target="right-arrow"/>
+  <alias name="sb_up_arrow" target="up-arrow"/>
   <alias name="sb_v_double_arrow" target="size_ver"/>
   <alias name="sizing" target="size_all"/>
   <alias name="target" target="dotbox"/>
@@ -194,16 +243,12 @@
   <alias name="grabbing" target="closedhand"/>
 
   <!-- from Breeze theme -->
-  <alias name="down-arrow" target="down_arrow"/>
   <alias name="draft" target="pencil"/>
   <alias name="half-busy" target="left_ptr_watch"/>
-  <alias name="left-arrow" target="left_arrow"/>
-  <alias name="right-arrow" target="right_arrow"/>
   <alias name="size-bdiag" target="size_bdiag"/>
   <alias name="size-fdiag" target="size_fdiag"/>
   <alias name="size-hor" target="size_hor"/>
   <alias name="size-ver" target="size_ver"/>
-  <alias name="up-arrow" target="up_arrow"/>
   <alias name="wayland-cursor" target="X_cursor"/>
   <alias name="x-cursor" target="X_cursor"/>
 
