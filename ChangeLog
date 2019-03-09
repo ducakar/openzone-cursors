@@ -1,3 +1,6 @@
+1.2.8
+- fixed a stray orange pixel in Black theme
+
 1.2.7
 - removed {up,down,left,right}_arrow aliases to fix issues in Plasma on Wayland
 - added (make) install script

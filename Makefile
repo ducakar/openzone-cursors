@@ -1,6 +1,6 @@
 pkgname = openzone-cursors
 name    = OpenZone
-version = 1.2.7
+version = 1.2.8
 themes  = $(name)_Black $(name)_Black_Slim \
 	  $(name)_White $(name)_White_Slim \
 	  $(name)_Ice $(name)_Ice_Slim \
