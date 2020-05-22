@@ -1,10 +1,10 @@
-pkgname = openzone-cursors
-name    = OpenZone
-version = 1.2.8
-themes  = $(name)_Black $(name)_Black_Slim \
-	  $(name)_White $(name)_White_Slim \
-	  $(name)_Ice $(name)_Ice_Slim \
-	  $(name)_Fire $(name)_Fire_Slim
+pkgname := openzone-cursors
+name    := OpenZone
+version := 1.2.9
+themes  := $(name)_Black $(name)_Black_Slim \
+	   $(name)_White $(name)_White_Slim \
+	   $(name)_Ice $(name)_Ice_Slim \
+	   $(name)_Fire $(name)_Fire_Slim
 
 DESTDIR ?= /usr/local
 
@@ -19,8 +19,7 @@ install: $(themes)
 	mv $(themes) $(DESTDIR)/share/icons
 
 pack: $(themes)
-	for theme in $(themes); do tar Jcf $$theme.tar.xz $$theme; rm -rf $$theme; done
-	cd .. && tar Jcf $(pkgname)-$(version).tar.xz --owner=0 --group=0 --exclude=.git $(pkgname)
+	tar Jcf $(pkgname)-$(version).tar.xz --owner=0 --group=0 $(themes)
 
 $(themes):
 	install -Dm644 src/$@/index.theme $@/index.theme
